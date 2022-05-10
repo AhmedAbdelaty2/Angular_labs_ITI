@@ -1,5 +1,7 @@
+<h3>Show Department</h3>
 <h1>{{viewDept.id}} : {{viewDept.deptName}} : {{viewDept.location}}</h1>
 
+<h3 class="mt-5">Insert Bar</h3>
 <input type="text" class="mx-2" [(ngModel)]="newDept.id">
 <input type="text" class="mx-2" [(ngModel)]="newDept.deptName">
 <input type="text" class="mx-2" [(ngModel)]="newDept.location">
@@ -24,7 +26,8 @@
         </tbody>
 </table>
 
-<div class="my-5">
+<div class="mt-5">
+    <h3>Edit Bar</h3>
     <input type="text" #v1 class="mx-2" [(ngModel)]="editDept.id">
     <input type="text" #v2 class="mx-2" [(ngModel)]="editDept.deptName">
     <input type="text" #v3 class="mx-2" [(ngModel)]="editDept.location">
